@@ -1,0 +1,36 @@
+# FastAPI Backend Dependencies for MoodMirror Phase 1
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# NLP & Machine Learning
+transformers
+torch
+sentencepiece
+
+# Database
+pymongo
+motor
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+bcrypt
+
+# Environment Variables
+python-dotenv
+
+# Utilities
+python-dateutil
+pandas
+numpy
+
+# Development & Testing
+pytest
+pytest-asyncio
+httpx
+
