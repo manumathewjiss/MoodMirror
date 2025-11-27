@@ -262,14 +262,14 @@ curl -X POST "http://localhost:8000/predict" \
 
 ## 📊 Results Preview
 
-*(Will be updated after experiments)*
+### Baseline Model Results
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| Naive Bayes | TBD | TBD | TBD | TBD |
-| SVM | TBD | TBD | TBD | TBD |
-| LSTM | TBD | TBD | TBD | TBD |
+| Logistic Regression (Baseline) | 53.66% | 61.79% | 53.66% | 55.56% |
 | DistilBERT | TBD | TBD | TBD | TBD |
+
+**Note:** Baseline model uses TF-IDF features with mean-based class balancing (SMOTE + RandomUnderSampler).
 
 ---
 
