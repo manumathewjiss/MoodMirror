@@ -83,8 +83,15 @@ models/*.bin
 models/*.h5
 models/*/pytorch_model.bin
 models/*/model.safetensors
+models/*/checkpoints/
+models/*/optimizer.pt
+models/*/scheduler.pt
+models/*/rng_state.pth
+models/*/training_args.bin
 models/distilbert_checkpoints/
 models/bert_checkpoints/
+models/roberta_emotion_model/
+models/roberta_emotion_model_3class/
 
 # ============================================================================
 # Results & Outputs (Can be Regenerated)
