@@ -16,6 +16,9 @@ transformers>=4.35.0
 torch>=2.0.0
 datasets>=2.14.0
 sentencepiece>=0.1.99
+tokenizers>=0.15.0
+safetensors>=0.4.0
+huggingface-hub>=0.20.0
 
 # ============================================================================
 # Visualization
